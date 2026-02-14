@@ -2,3 +2,5 @@ pandas
 numpy
 plotly
 statsmodels
+matplotlib
+seaborn
