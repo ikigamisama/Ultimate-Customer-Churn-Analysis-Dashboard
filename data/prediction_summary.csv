@@ -1,0 +1,2 @@
+total_customers,predicted_churners,predicted_stays,churn_rate_predicted,avg_churn_probability,total_revenue_at_risk,monthly_revenue_at_risk,critical_risk_count,high_risk_count,medium_risk_count,low_risk_count
+6311,2161,4150,0.342418000316907,0.36282656,3442295.84,150772.7,1934,227,321,3829
