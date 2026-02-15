@@ -51,7 +51,7 @@ st.markdown(
             color: white;
         }}
 
-        .st-bq, .st-dr, .st-emotion-cache-11xx4re{{
+        .st-bq{{
             background-color: #2596be;
         }}
     </style>
