@@ -45,6 +45,10 @@ st.markdown(
         :root {
             --primary-color: #2596be;
         }
+
+        .st-ce{{
+            background-color: #2596be;
+        }}
     </style>
     """,
     unsafe_allow_html=True
