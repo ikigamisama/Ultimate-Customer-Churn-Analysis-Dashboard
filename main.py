@@ -51,7 +51,7 @@ st.markdown(
             color: white;
         }}
 
-        span [data-baseweb="tag"]{{
+        .st-bq{{
             background-color: #2596be;
         }}
     </style>
