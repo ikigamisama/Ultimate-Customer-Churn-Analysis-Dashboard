@@ -51,7 +51,7 @@ st.markdown(
             color: white;
         }}
 
-        .st-ce{{
+        span [data-baseweb="tag"]{{
             background-color: #2596be;
         }}
     </style>
