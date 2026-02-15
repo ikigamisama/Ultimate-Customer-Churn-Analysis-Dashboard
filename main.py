@@ -9,42 +9,47 @@ st.set_page_config(
 )
 
 st.markdown(
-    """
+    f"""
     <style>
-        div[data-testid="stMetric"] {
+        :root {{
+            --primary-color: {"#2596be"};
+        }}
+        div[data-testid="stMetric"] {{
             border-left: 0.5rem solid #2596be !important;
             box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
             padding: 0 0 0 2% !important;
             border-radius: 12px !important;
             background-color: transparent !important;
-        }
-        div[data-testid="stMetric"] label{
+        }}
+        div[data-testid="stMetric"] label{{
             margin-bottom: 5px;
-         }
+        }}
 
-         #customer-churn-analysis-dashboard{
+        #customer-churn-analysis-dashboard{{
             margin-bottom:15px;
-         }
+         }}
 
         /* Reduce top padding */
-        .block-container {
+        .block-container {{
             padding-top: 2rem;
-        }
+        }}
         
         /* Tab styling */
-        .stTabs [data-baseweb="tab-list"] {
+        .stTabs [data-baseweb="tab-list"] {{
             gap: 8px;
-        }
+            margin-top: 32px;
+        }}
         
-        .stTabs [data-baseweb="tab"] {
+        .stTabs [data-baseweb="tab"] {{
             padding: 10px 20px;
-            font-weight: 500;
-        }
+            background-color: transparent;
+            border-radius: 5px;
+        }}
         
-        /* Primary color customization */
-        :root {
-            --primary-color: #2596be;
-        }
+        .stTabs [aria-selected="true"] {{
+            background-color: var(--primary-color);
+            color: white;
+        }}
 
         .st-ce{{
             background-color: #2596be;
